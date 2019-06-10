@@ -1,0 +1,38 @@
+[
+ {
+  "text": "Hola soy un mensaje",
+  "author": "Carlos Azaustre"
+ },
+ {
+  "text": "Hola soy un mensaje 2",
+  "author": "Ricardo"
+ },
+ {
+  "text": "texto",
+  "author": "texto"
+ },
+ {
+  "author": "Felix",
+  "text": "Hola soy yo"
+ },
+ {
+  "author": "Ricardo",
+  "text": "bien"
+ },
+ {
+  "author": "Carlos",
+  "text": "que tal?"
+ },
+ {
+  "author": "Luis",
+  "text": "Hello"
+ },
+ {
+  "author": "Carlos",
+  "text": "hombre"
+ },
+ {
+  "author": "Luis",
+  "text": "mujer"
+ }
+]

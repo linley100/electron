@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Aplicación con Sockets</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="bundle.js"></script>
+</head>
+<body>
+  <h1>My App</h1>
+  <div id="messages"></div>
+  <br/>
+  <form action="">
+    <input type="text" id="username" placeholder="Tu Nombre" >
+    <input type="text" id="texto" placeholder="Cuéntanos algo...">
+    <input type="submit" value="Enviar!">
+  </form>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    $(function () {
+      var socket = io.connect('http://localhost:3000');
+      $('form').submit(function(){
+        console.log("AAAAAAA");
+
+        var message = {
+          author: document.getElementById('username').value,
+          text: document.getElementById('texto').value
+        };
+
+        socket.emit('new-message', message);
+        
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>
