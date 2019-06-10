@@ -8,10 +8,6 @@
   "author": "Ricardo"
  },
  {
-  "text": "texto",
-  "author": "texto"
- },
- {
   "author": "Felix",
   "text": "Hola soy yo"
  },
@@ -34,5 +30,9 @@
  {
   "author": "Luis",
   "text": "mujer"
+ },
+ {
+  "author": "Pepito",
+  "text": "me gustan los ruffles"
  }
 ]
